@@ -1,0 +1,7 @@
+controller:
+  ingress:
+    enabled: true
+    paths: []
+    apiVersion: "extensions/v1beta1"
+    hostName: jenkins.kube.retiarno.my.id
+    ingressClassName: nginx
